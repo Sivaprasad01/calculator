@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="row">
+    <div class="col-4">
+        <h1 class="caption one">Simple</h1>
+    </div>
+    <div class="col-4">
+        <div class="container text-center">
+
+            <div class="noti">
+                    <img src="https://i.postimg.cc/nz9SFHRq/noti-cam.jpg" alt="">    
+             </div>
+            <input type="text" id="result"  placeholder="0" class="display">
+            <br>
+    <hr style="color: white;">
+             
+            <button onclick="clearDisplay()" type="button" id="ac"><b>AC</b></button>
+            <!-- &#9003 - html entity for backspace -->
+            <button onclick="backSpace()" type="button" id="del"><b>DEL</b></button>
+            <button onclick="displayNumber('-')" id="sub"> <b>&#8722</b></button>
+            <button onclick="displayNumber('+')" id="add"> <b>&#43</b></button>
+    
+            <button onclick="displayNumber(7)" id="seven"><b>7</b> </button>
+            <button onclick="displayNumber(8)" id="eight"><b>8</b></button>
+            <button onclick="displayNumber(9)" id="nine"><b>9</b></button>
+            <button onclick="displayNumber('/')" id="div"><b>&#247</b></button><br>
+    
+            <button onclick="displayNumber(4)" id="four"><b>4</b></button>
+            <button onclick="displayNumber(5)" id="five"><b>5</b></button>
+            <button onclick="displayNumber(6)" id="six"><b>6</b></button>
+            <button onclick="displayNumber('*')" id="mul"><b>&#215</b></button><br>
+    
+            <button onclick="displayNumber(1)" id="one"><b>1</b></button>
+            <button onclick="displayNumber(2)" id="two"><b>2</b></button>
+            <button onclick="displayNumber(3)" id="three"><b>3</b></button>
+            <button onclick="displayNumber('.')" id="dot"> <b>.</b></button><br>
+    
+            <button onclick="displayNumber('(') "id="opening"><b>(</b></button>
+            <button onclick="displayNumber(0) "id="zero"><b>0</b></button>
+            <button onclick="displayNumber(')') "id="closing"><b>)</b></button>
+            <button onclick="evaluateDisplay() "id="equal"><b>&#61</b></button><br>
+    
+            <div class="bottom">
+                <img src="https://i.postimg.cc/yNtnrM1x/bottom.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <h1 class="caption">Calculator</h1>
+    </div>
+</div>
+
+ 
+    <script src="./script.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000');
+    overflow: hidden;
+}
+.caption{
+color: white;
+font-size: 70px;
+margin-top: 250px;
+
+}
+.one{
+    margin-left: 240px;
+}
+
+.container{
+    background-color: black;
+    height: 600px;
+    width: 300px;
+    margin-top: 25px;
+    border-radius: 16px;
+    box-shadow: 25px 25px 25px black;
+    border: 1px solid rgb(43, 42, 42);
+}
+
+.noti img{
+    height: 62px;
+    width: 285px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.display{
+height: 80px;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 30px;
+margin-bottom: 10px;
+font-size: 40px;
+width: 262px;
+margin-left: 15px;
+color: white;
+border: 0.1px solid black;
+border-radius: 10px;
+background-color: rgb(1, 9, 1);
+box-shadow: 4px 4px 15px black;
+box-shadow: -4px -4px -15px gray;
+
+}
+
+button{
+    height: 55px;
+    width: 55px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    font-size: larger;
+    background-color: black;
+    border: 1px solid gray;
+}
+button:hover{
+    background-color: black;
+    border: 4px solid black;
+}
+
+#ac,#del{
+    color: rgb(211, 30, 30);
+}
+
+#sub,#add,#div,#mul,#opening,#closing{
+    color: rgb(39, 236, 25);
+    font-size: 25px;
+}
+
+#seven,#eight,#nine,#four,#five,#six,#one,#two,#three,#zero,#dot{
+    color: white;
+}
+
+#equal{
+    background-color:rgb(39, 236, 25) ;
+    color: white;
+}
+
+.bottom img{
+    height: 45px;
+    width: 280px;
+    border-radius: 20px;
+
+}
